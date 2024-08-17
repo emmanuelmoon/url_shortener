@@ -9,7 +9,7 @@ function App() {
   function handleClick(e: { [x: string]: any; preventDefault: () => void }) {
     e.preventDefault();
     axios
-      .post("http://127.0.0.1:8000", {
+      .post("api", {
         url: URL,
       })
       .then((response) => {
