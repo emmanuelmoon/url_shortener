@@ -22,5 +22,6 @@
       "src": "/(.*)",
       "dest": "/frontend/dist/$1"
     }
-  ]
+  ],
+  "buildCommand": "npm run build --prefix frontend"
 }
