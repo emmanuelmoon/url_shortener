@@ -9,7 +9,7 @@ function App() {
   function handleClick(e: { [x: string]: any; preventDefault: () => void }) {
     e.preventDefault();
     axios
-      .post("api", {
+      .post("/api", {
         url: URL,
       })
       .then((response) => {
